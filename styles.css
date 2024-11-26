@@ -1,0 +1,167 @@
+/* التنسيق الأساسي */
+body {
+    font-family: "Cairo", sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: center;
+    background-color: #f5f3ee; /* لون خلفية مستوحى من اللوجو */
+    color: #5a4231; /* لون النص */
+}
+
+header {
+    background-color: #d3b89a; /* لون الخلفية مستوحى من اللوجو */
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    max-width: 150px; /* حجم الشعار */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+/* تصميم الأزرار */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* توسيط الأزرار */
+    gap:8px; /* تقليل المسافة بين الأزرار */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #5a4231; /* لون الخلفية */
+    padding: 8px 15px; /* تقليل الحواف الداخلية */
+    border-radius: 20px; /* لجعل الزر دائريًا */
+    font-weight: bold;
+    font-size: 14px; /* تقليل حجم النص */
+    transition: 0.3s ease-in-out; /* لإضافة تأثير عند التفاعل */
+}
+
+nav ul li a:hover {
+    background-color: #d3b89a; /* لون جديد عند التمرير */
+    color: #5a4231; /* تغيير لون النص عند التمرير */
+    transform: scale(1.05); /* تأثير التكبير عند التمرير */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* إضافة ظل */
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+}
+
+h1, h2 {
+    color: #5a4231;
+}
+
+footer {
+    background-color: #5a4231;
+    color: #f5f3ee;
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* تنسيق المنتجات */
+#products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fdfaf5;
+    border: 1px solid #d3b89a;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* تنسيق النماذج */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    text-align: right;
+    font-weight: bold;
+    color: #5a4231;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #d3b89a;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    background-color: #5a4231;
+    color: #f5f3ee;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #d3b89a;
+    color: #5a4231;
+}
+a {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* توسيط الأزرار */
+    gap:8px; /* تقليل المسافة بين الأزرار */
+
+
+    text-decoration: none;
+    color: #fff;
+    background-color: #5a4231; /* لون الخلفية */
+    padding: 8px 15px; /* تقليل الحواف الداخلية */
+    border-radius: 20px; /* لجعل الزر دائريًا */
+    font-weight: bold;
+    font-size: 14px; /* تقليل حجم النص */
+    transition: 0.3s ease-in-out; /* لإضافة تأثير عند التفاعل */
+
+    background-color: #d3b89a; /* لون جديد عند التمرير */
+    color: #5a4231; /* تغيير لون النص عند التمرير */
+    transform: scale(1.05); /* تأثير التكبير عند التمرير */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* إضافة ظل */}
